@@ -17,12 +17,14 @@ int n;
 cout<<"Enter the number to Reverse"<<endl;
 cin>>n;
 cout<<"The Reversed Number is: ";
-int i=0;
-for(i=countNum(n);i>0;i--){
+int i;
+int c= countNum(n);
+for(int i=0;i<c;i++){
     int rev;
     rev=n%10;
     cout<<rev;
     n=n/10;
+
 }
 cout<<endl;
 return 0;
