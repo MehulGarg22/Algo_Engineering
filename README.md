@@ -1,13 +1,13 @@
-# Welcome
+# Welcome😃
 
-This Repository is Created in order to fulfill the purpose of Providing complete code of various Data Structure and Algorithms. So if you are interested in contributing to this Open source Source Project then you are most welcome to contribute your code in this Repository
+This Repository is created in order to fulfill the purpose of providing complete code of various Data Structure and Algorithms. So if you are Interested in Contributing to this Open Source Project then you are most welcome to contribute your code in this Repository.
 
-# Language
+## Language
 
 Programming Language used here is C & C++.
 
-# Maintainer.
-@Mehul_Garg (Indian).
+## Maintainer.
+Mehul_Garg (🇮🇳).
 
 ## Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
