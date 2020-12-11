@@ -13,20 +13,13 @@ int main(){
         cin>>arr[i];
     }
 
-    int max=-199999;
-    for (i=0;i<=n;i++)
-    {
-    mx= max(mx,a[i]);
-    cout<<mx;
-    
-    }
-    
-
-    cout<<"Sorted array is: "<<endl;
+    int mx=-199999;
     for (i=0;i<n;i++)
     {
-        cout<<arr[i];
-        cout<<endl;
+    mx= max(mx,arr[i]);
+    cout<<mx<<endl;
+
     }
+
 return 0;
 }
