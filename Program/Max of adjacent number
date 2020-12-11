@@ -13,7 +13,7 @@ int main(){
         cin>>arr[i];
     }
 
-    int mx=-199999;
+    int mx=-9999;
     for (i=0;i<n;i++)
     {
     mx= max(mx,arr[i]);
