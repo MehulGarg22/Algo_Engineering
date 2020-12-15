@@ -1,6 +1,7 @@
 # Welcome😃
 
 This Repository is created in order to fulfill the purpose of providing complete code of various Data Structure and Algorithms. So if you are Interested in Contributing to this Open Source Project then you are most welcome to contribute your code in this Repository.
+We are also Including Solution to Previous & Question Asked in FAANG & other Top IT Companies.
 
 ## Language
 
