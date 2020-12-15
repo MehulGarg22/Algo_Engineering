@@ -1,14 +1,18 @@
-# Welcome😃
+# Welcome 😃
 
 This Repository is created in order to fulfill the purpose of providing complete code of various Data Structure and Algorithms. So if you are Interested in Contributing to this Open Source Project then you are most welcome to contribute your code in this Repository.
 We are also Including Solution to Previous & Question Asked in FAANG & other Top IT Companies.
 
-## Language
+## Programming Language
 
 Programming Language used here is C & C++.
 
 ## Maintainer.
 Mehul_Garg (🇮🇳).
+
+## Folder
+* Program- This Folder Includes code of Data Structures and Algorithms.
+* Challenges- This folder includes Solution to Contest on various Plateforms like Codechef, Codeforces, HackerEarth, HackerRank as well as this folder includes Solutions to Question asked by FAANG and other Top MNC's.
 
 ## Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
@@ -37,4 +41,4 @@ git push origin branch-name
 * Wait for your PR review and merge approval!
 * __Star this repository__ if this repository is your next contributing Open source Project 
 
-__Happy Learning__
+__Happy Learning__ ✨
