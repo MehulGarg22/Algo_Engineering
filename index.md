@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Welcome 😃
 
-You can use the [editor on GitHub](https://github.com/MehulGarg22/Algo_Engineering/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This Repository is created in order to fulfill the purpose of providing complete code of various Data Structure and Algorithms. So if you are Interested in Contributing to this Open Source Project then you are most welcome to contribute your code in this Repository.
+We are also Including Solution to Previous & Question Asked in FAANG & other Top IT Companies.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Programming Language
 
-### Markdown
+Programming Language used here is C & C++.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Maintainer.
+Mehul_Garg (🇮🇳).
+
+## Folder
+* Program- This Folder Includes code of Data Structures and Algorithms.
+* Challenges- This folder includes Solution to Contest on various Plateforms like Codechef, Codeforces, HackerEarth, HackerRank as well as this folder includes Solutions to Question asked by FAANG and other Top MNC's.
+
+## Getting started
+* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
+* Clone your fork down to your local machine
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+git clone https://github.com/your-username/repository_name.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Create a branch
 
-### Jekyll Themes
+```markdown
+git checkout -b branch-name
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MehulGarg22/Algo_Engineering/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Make your changes (choose from any task below)
+* Commit and push
 
-### Support or Contact
+```markdown
+git add .
+git commit -m 'Commit message'
+git push origin branch-name
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+* Wait for your PR review and merge approval!
+* __Star this repository__ if this repository is your next contributing Open source Project 
+
+__Happy Learning__ ✨
