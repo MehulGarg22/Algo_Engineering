@@ -1,6 +1,16 @@
 #include<iostream>
 #include<climits>
 using namespace std;
+
+int maxsumarray(int arr[], int n){
+    int sum=0;
+    for(int i=0; i<n;i++){
+        sum+=arr[i];
+    }
+    cout<<"Optimised Maxsum is: ";
+    return sum;
+}
+
 int main()
 {
     int n;
@@ -26,7 +36,7 @@ int maxsum=INT_MIN;
           maxsum=max(maxsum, sum);
         }
     }
-cout<<maxsum<<endl;
-
+cout<<"Max Sum is: "<<maxsum<<endl;
+cout<<maxsumarray(arr, n);
 return 0;
 }
