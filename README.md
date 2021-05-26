@@ -12,7 +12,7 @@ Programming Language used here is C & C++.
 Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
 
 ## Maintainer.
-Mehul_Garg (🇮🇳).
+<a href="https://www.mehulgarg.me/"> Mehul Garg.</a>
 
 ## Folder
 * Program- This Folder Includes code of Data Structures and Algorithms.
