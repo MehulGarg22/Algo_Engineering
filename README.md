@@ -12,36 +12,56 @@ Programming Language used here is C & C++.
 Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
 
 ## Maintainer.
-Mehul_Garg (🇮🇳).
+<a href="https://www.mehulgarg.me/"> Mehul Garg.</a>
 
 ## Folder
 * Program- This Folder Includes code of Data Structures and Algorithms.
 * Challenges- This folder includes Solution to Contest on various Plateforms like Codechef, Codeforces, HackerEarth, HackerRank as well as this folder includes Solutions to Question asked by FAANG and other Top MNC's.
 
-## Getting started
-* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone your fork down to your local machine
 
-```markdown
-git clone https://github.com/your-username/repository_name.git
-```
+## Guideline to Get Started
+1. On the [GitHub page for this repository](https://github.com/zero-to-mastery/start-here-guidelines), click on the Button "Fork".
 
-* Create a branch
+   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
-```markdown
-git checkout -b branch-name
-```
+2. Clone _your forked repository_ to your computer:
 
-* Make your changes (choose from any task below)
-* Commit and push
+   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
 
-```markdown
-git add .
-git commit -m 'Commit message'
-git push origin branch-name
-```
+    For example, run this command inside your terminal:
 
-* Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+    ```bash
+    git clone git@github.com:<your-github-username>/Algo_Engineering.git
+    ```
+
+    **Replace \<your-github-username\>!**
+3. Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
+
+    ```bash
+    git remote add upstream git@github.com:<your-github-username>/Algo_Engineering.git
+    git pull upstream master
+    ```
+6. Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
+
+    ```bash
+    git add .
+    git commit -m "Add good commit message"
+    ```
+
+    **Replace \<your-github-username\>!**
+
+7. Push your changes _to your repository_:
+
+    ```bash
+    git push origin master
+    ```
+
+8. Go to the GitHub page of _your fork_, and make a pull request:
+
+    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
+
+    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+    
 * Wait for your PR review and merge approval!
 * __Star this repository__ if this repository is your next contributing Open source Project 
 
