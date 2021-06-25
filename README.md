@@ -47,6 +47,13 @@ Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
     git add .
     git commit -m "Add good commit message"
     ```
+    echo "# MehulGarg_Website" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M master
+    git remote add origin git@github.com:MehulGarg22/MehulGarg_Website.git
+    git push -u origin master
 
     **Replace \<your-github-username\>!**
 
@@ -55,6 +62,13 @@ Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
     ```bash
     git push origin master
     ```
+    git push --set-upstream git@github.com:MehulGarg22/MehulGargWebsite.git master
+
+    OR
+
+    git remote add origin git@github.com:MehulGarg22/MehulGarg_Website.git
+    git branch -M master
+    git push -u origin master
 
 8. Go to the GitHub page of _your fork_, and make a pull request:
 
