@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int divisible(vector<int> arr, int n, int k)
+int divisible(int arr[], int n, int k)
 {
     int sum=0; bool found=false; pair<int, int> ans;
 
@@ -41,7 +41,7 @@ int divisible(vector<int> arr, int n, int k)
 }
 
 int main(){
-  vector<int> arr={84,23,45,12,56,82};
+  int arr[]={84,23,45,12,56,82};
   int k=3;
 
   divisible(arr, 6, k);
