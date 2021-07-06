@@ -9,7 +9,7 @@ Programming Language used here is C & C++.
 
 ## Website
 
-Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
+Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/).
 
 ## Maintainer.
 <a href="https://www.mehulgarg.me/"> Mehul Garg.</a>
@@ -67,8 +67,8 @@ Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/)
     OR
 
     git remote add origin git@github.com:MehulGarg22/MehulGarg_Website.git
-    git branch -M master
-    git push -u origin master
+    git branch -M master.
+    git push -u origin master.
 
 8. Go to the GitHub page of _your fork_, and make a pull request:
 
