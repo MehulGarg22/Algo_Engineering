@@ -9,8 +9,9 @@ using namespace std;
 #define ss second
 #define pa pair<int,int>
 #define vi vector<int>
-#define vii vector<pii>
+#define vii vector<pa>
 #define rep(i,a,b) for(int i=a; i<b; i++)
+#define setBits(x) builtin_popcount(x)
 
 int main(){
   int n;
