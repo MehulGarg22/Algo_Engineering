@@ -53,7 +53,7 @@ int main()
     root->right->left = new Node(14);
     root->right->right = new Node(6);
 
-    map<int, vector<int>> mp;
+    map<int, vector<int>> mp; // Vector because for a same horizontal distance there can be more than one elements
     int hdis = 0;
     VerticalOrder(root, hdis, mp);
     Printorder(mp);
