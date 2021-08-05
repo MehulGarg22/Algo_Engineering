@@ -28,5 +28,14 @@ int main()
     cout<<"Adjacency Matrix formed is: "<<endl;
     print(adm, node);
 
+    cout<<endl;
+
+    if(adm[3][1]==1){
+        cout<<"Edge Exist at 3 and 1"<<endl;
+    }
+    else{
+        cout<<"No Edge Present at these Node"<<endl;
+    }
+
 return 0;
 }
