@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 #include<bits/stdc++.h> //IMPORTANT
 using namespace std;
 
