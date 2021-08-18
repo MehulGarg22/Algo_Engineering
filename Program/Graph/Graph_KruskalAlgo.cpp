@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 const int N=1e5+6;
 vector<int> parent(N);
@@ -31,7 +32,6 @@ int unions (int a, int b)
         sz[x]+=sz[y];
     }
 }
-
 int main()
 {
     for(int i=0;i<N;i++)
@@ -44,28 +44,31 @@ int main()
     vector<vector<int>>edges;
     cout<<"Enter edges: "<<endl;
     for(int i=0; i<edge; i++){
-        int u,v;
-        cin>>u>>v;
-        edges.push_back({u,v});
+        int w,u,v;
+        cin>>u>>v>>w;
+        edges.push_back({w,u,v});
     }
-    bool cycle=false;
+    sort(edges.begin(),edges.end());
+    int cost=0;
     for(auto i: edges){
-        int u=i[0];
-        int v=i[1];
+        int w=i[0];
+        int u=i[1];
+        int v=i[2];
         int x=find_set(u);
         int y=find_set(v);
 
         if(x==y){
-            cycle=true;
+            continue;
         }
-        unions(u,v);
+        else{
+            cout<<"Edges are: "<<u<<" "<<v<<endl;
+            cost+=w;
+            unions(u,v);
+        }
     }
-    if(cycle){
-        cout<<"Cycle is found";
-    }
-    else{
-        cout<<"Cycle is not found";
-    }
+
+    cout<<"Cost is: "<<cost;
 
 return 0;
 }
+
