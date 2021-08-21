@@ -17,7 +17,7 @@ Link: [Algo_Engineering](https://mehulgarg22.github.io/Algo_Engineering/).
 ## Folder
 * Program- This Folder Includes code of Data Structures and Algorithms.
 * Challenges- This folder includes Solution to Contest on various Plateforms like Codechef, Codeforces, HackerEarth, HackerRank as well as this folder includes Solutions to Question asked by FAANG and other Top MNC's.
-
+* Speedy Shorts- Library of Macros which can be used in codes for sake of reducing time in writing code.
 
 ## Guideline to Get Started
 1. On the [GitHub page for this repository](https://github.com/zero-to-mastery/start-here-guidelines), click on the Button "Fork".
