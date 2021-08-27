@@ -11,7 +11,7 @@ using namespace std;
 #define pa pair<int,int>
 #define vi vector<int>
 #define vii vector<pa>
-#define rep(i,0,b) for(int i=0; i<b; i++)
+#define rep(i,a,b) for(int i=a; i<b; i++)
 #define setBits(x) builtin_popcount(x)
 
 int main(){
