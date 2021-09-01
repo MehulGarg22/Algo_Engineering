@@ -10,7 +10,7 @@ using namespace std;
 #define ss second
 #define pa pair<int,int>
 #define vi vector<int>
-#define vii vector<pa>
+#define vii vector<pair<int,int>>
 #define rep(i,a,b) for(int i=a; i<b; i++)
 #define setBits(x) builtin_popcount(x)
 
