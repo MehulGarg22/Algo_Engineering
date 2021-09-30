@@ -23,7 +23,6 @@ int main(){
   rep(i, 0, n){
       cin>>arr[i];
   }
-
   st(Inputted Elements are);
   rep(i, 0, 5) {
       cout<<arr[i]<<" ";
