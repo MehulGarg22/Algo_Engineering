@@ -7,7 +7,6 @@ int dp[N];
 
 int MemoisationFib(int n)
 {
-
     if(n==0){
         return 0;
     }
