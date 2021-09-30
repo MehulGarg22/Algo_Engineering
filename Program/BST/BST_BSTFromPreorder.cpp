@@ -14,6 +14,7 @@ public:
         right=NULL;
     }
 };
+
 void Preorderprint(Node* root){
     if(root==NULL)
         return;
