@@ -16,45 +16,52 @@ public:
     }
 };
 
-void zigzag(Node* root){
-    if(root==NULL){
-        return;
-    }
-    stack<Node*> currlevel;
-    stack<Node*> nextlevel;
-    bool LefttoRight=true;
-    currlevel.push(root);
-    while(!currlevel.empty()){
-        Node* temp=currlevel.top();
-        currlevel.pop();
-        cout<<temp->data<<" ";
-        if(temp){
-            if (LefttoRight){
-                if (temp->left){
+vector <int> zigZagTraversal(Node* root)
+    {
+    	// Code here
+    	
+    	vector<int> v;
+    	stack<struct Node*> currentlevel;
+        stack<struct Node*> nextlevel;
+        
+        if(!root)
+            return v;
+        
+        currentlevel.push(root);
+        
+        bool lefttoright=true;
+        
+        while(!currentlevel.empty()){
+            struct Node* temp=currentlevel.top();
+            currentlevel.pop();
+            
+            if(temp){
+                v.push_back(temp->data);
+                
+                if(lefttoright){
+                  if (temp->left)
                     nextlevel.push(temp->left);
-                }
-                if (temp->right)
-                {
+                  if (temp->right)
                     nextlevel.push(temp->right);
                 }
-            }
-            else{
-                if (temp->right)
-                {
+                
+                else{
+                  if (temp->right)
                     nextlevel.push(temp->right);
-                }
-                if (temp->left)
-                {
+                  if (temp->left)
                     nextlevel.push(temp->left);
                 }
             }
+             if (currentlevel.empty()) {
+              lefttoright = !lefttoright;
+              swap(currentlevel, nextlevel);
         }
-        while(currlevel.empty()){
-            LefttoRight=!LefttoRight;
-            swap(currlevel, nextlevel);
+            
+            
         }
+ 
+    	
     }
-}
 
 int main()
 {
@@ -72,7 +79,7 @@ int main()
 
 */
 
-    zigzag(root);
+    zigZagTraversal(root);
 
 return 0;
 }
