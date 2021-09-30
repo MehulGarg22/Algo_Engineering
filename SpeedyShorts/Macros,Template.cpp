@@ -25,7 +25,7 @@ int main(){
   }
 
   st(Inputted Elements are);
-  rep(i, 0, 5){
+  rep(i, 0, 5) {
       cout<<arr[i]<<" ";
   }
 
