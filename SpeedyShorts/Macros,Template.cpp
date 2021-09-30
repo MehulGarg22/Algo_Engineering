@@ -27,7 +27,6 @@ int main(){
   rep(i, 0, 5) {
       cout<<arr[i]<<" ";
   }
-
-
+  
 return 0;
 }
