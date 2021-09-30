@@ -3,7 +3,6 @@
 using namespace std;
 int main()
 {
-    
     int n;
     cout<<"Enter Number of Words"<<endl;
     cin>>n;
