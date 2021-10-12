@@ -1,28 +1,58 @@
-#include<iostream>
+#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
+
+int maxSubArray(int m[], int n)
+{
+
+    int sum = 0, s = 0, i;
+
+    for (i = 0; i < n; i++)
+    {
+        s += m[i];
+        if (s < 0)
+            s = 0;
+
+        sum = max(s, sum);
+    }
+
+    sort(m, m + n);
+
+   
+    if (m[n - 1] < 0)
+        sum = m[n - 1];
+
+    return sum;
+}
+
 int main()
 {
-    int n;
-    cout<<"Enter no of Element to be stored in an array: ";
+ 
+    
+
+    int i, n, sum = 0;
+    cout<<"enter size";
     cin>>n;
-    int i;
     int arr[n];
-    cout<<endl;
-    cout<<"Enter Elements in an array: "<<endl;
-    for (i=0;i<n;i++)
-    {
+    cout<<"enter the array";
+    for (i=0;i<n;i++){
         cin>>arr[i];
     }
 
-    for (int i=0;i<n;i++)
-    {int sum=0;
-        for(int j=i;j<n;j++)
-        {
-            sum=sum+arr[j];
-            cout<<"Sum is: ";
-            cout<<sum<<endl;
-        }
+    
+    cout << "\n The " << n << " elements of the array are : ";
+
+    for (i = 0; i < n; i++)
+    {
+        cout << arr[i] << "  ";
     }
 
-return 0;
+    sum = maxSubArray(arr, n);
+
+    cout << "\nThe Maximum sum of the Subarrays of the given array is: " << sum;
+
+    
+
+    return 0;
 }
