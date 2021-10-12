@@ -1,40 +1,33 @@
-#include<iostream>
-#include<climits>
+#include <iostream>
+#include <climits>
+#include <algorithm>
 using namespace std;
+ 
 int main()
 {
-
     int n;
-    cout<<"Enter Number of Elements to be stored in an array: ";
+    cout<<"enter size";
     cin>>n;
-    cout<<endl;
-    cout<<"Enter the Elements: "<<endl;
-    int arr[n];
-    int i;
-    for(i=0;i<=n;i++)
-    {
-        cin>>arr[i];
+    int arr[n],i;
+    cout<<"enter array";
+    for(i=0;i<n;i++){
+    cin>>arr[i];    
     }
-    int maxNo=INT_MIN;
-    int minNo=INT_MAX;
-    for(i=0;i<=n;i++)
+ 
+    int min = INT_MAX, max = INT_MIN;
+    for (int i: arr)
     {
-        maxNo=max(maxNo,arr[i]);
-        minNo=min(minNo,arr[i]);
-
-  /*  or use this
-      if (arr[i]<minNo)
-        {
-            minNo=arr[i];
+        if (i < min) {
+            min = i;
         }
-        if(arr[i]>maxNo)
-        {
-            maxNo=arr[i];
-        }*/
+ 
+        if (i > max) {
+            max = i;
+        }
     }
-    cout<<endl;
-    cout<<"Minimum Number is: "<<minNo<<endl;
-    cout<<"Maximum Number is: "<<maxNo<<endl;
-
-return 0;
+ 
+    cout << "The min element is " << min << endl;
+    cout << "The max element is " << max << endl;
+ 
+    return 0;
 }
