@@ -41,7 +41,7 @@ Info LargestBST(Node* root){
         curr.max = max(RightInfo.max, max(LeftInfo.max, root->data));
         curr.ans=curr.size;
         curr.isBST=true;
-
+        
         return curr;
     }
 
@@ -60,5 +60,6 @@ int main()
     root->right->right=new Node(14);
 
     cout<<"Largest BST is: "<<LargestBST(root).ans<<" ";
+    
 return 0;
 }
