@@ -5,7 +5,7 @@ We are also Including Solution to Previous & Question Asked in FAANG & other Top
 
 ## Programming Language
 
-Programming Language used here is C & C++.
+Programming Language used here is C++.
 
 ## Website
 
