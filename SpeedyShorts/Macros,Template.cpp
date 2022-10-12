@@ -15,6 +15,7 @@ using namespace std;
 #define rep(i,a,b) for(int i=a; i<b; i++)
 #define setBits(x) builtin_popcount(x)
 
+
 int main(){
   int n;
   cin>>n;
