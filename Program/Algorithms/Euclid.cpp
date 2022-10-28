@@ -10,9 +10,9 @@ int GCD(int a, int b)
         a=b;
         b=rem;
     }
-
     return b;
 }
+
 int main()
 {
     int a, b;

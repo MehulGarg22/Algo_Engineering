@@ -16,8 +16,8 @@ void compare(int arra[], int arrb[], int n) {
        {
            PtB=PtB+1;
        }
-
    }
+    
 cout<<PtA<<" "<<PtB;
 }
 

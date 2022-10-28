@@ -1,7 +1,6 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
 void Factorise(int n)
 {
      int spf[100];
